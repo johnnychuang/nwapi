@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "newworld",
+    "packageName": "morelink.nw",
+    "packageFolder": "morelink/nw",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "zh-tw",
+      "de",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "ZTQ1ZjljMWM5NGM5NTkwZTYxZTdjMDIzNGU5YmZhMTc4MDBlZWI0NWQwNThlYzNiMDI4ZTEzNDE5MmRiZDFkYzM2ODM4YjJmOWE2MTlmNWE1NGM3YjY2MWY0MzU3MmYyYTQ4OTRjZWVmM2NmZjQ4MDNiMzIyMDgxM2E1Njk4ZjE=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "johnnychuang",
+  "repository-name": "nwapi"
+}
